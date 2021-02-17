@@ -1,0 +1,14 @@
+# Your GitHub App Id
+export GITHUB_APP_ID=
+
+# Your GitHub App private key, base64-encoded
+export GITHUB_APP_PRIVATE_KEY=
+
+# GitHub owner and repo where the GitHub App is installed
+export GITHUB_OWNER=
+export GITHUB_REPO=
+
+# Uncomment if you have a ~/.netrc file, or similar
+# This can interfere with the Authorization HTTP header set by requests
+# For more information, see: https://2.python-requests.org/en/master/user/quickstart/#custom-headers
+# export NETRC=$( pwd )  # disable .netrc lookup
